@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        </head>
+        <body>  
+            <h1 style="text-align:center;color:tomato;">Book a call</h1>
+            <h5 style="text-align:center;">Book a call and our representative will call you within 1hr of selected time.</h5>
+            <hr width="100%"  size="4px">
+    <form action="#" onsubmit="signup()">
+    First Name:<br><input type="text" id="fname"  value="kailash"><br>
+    Last Name:<br><input type="text" id="lname"><br>
+    Email:<br><input type="text" id="email"><br>
+    Phone No:<br><input type="text" id="phone"><br>
+    Time for call:<br><input type="date"> <input type="time"><br>
+    <input type="submit" value="Get a call"><br>
+  </form>
+<script>
+    function signup() {
+        const name=document.getElementById("fname").value;
+        const lname=document.getElementById("lname").value;
+        const email=document.getElementById("email").value;
+        const phone=document.getElementById("phone").value;
+        console.log(name);
+        console.log(lname);
+        console.log(email);
+        console.log(phone);
+    }
+    </script>
+  
+</body>
